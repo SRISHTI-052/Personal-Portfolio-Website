@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srishti's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body class="index">
+    <div id="header">
+        <div class="container">
+                <nav>
+            <img src="srishti.jpg" class="logo" > 
+            
+                    <ul id="sidemenu">
+                        <li><a href="index.html"> <span class="clickable-word">Home</span></a></li>
+                        <!-- <li><a href="resume.html"><span class="clickable-word">Resume</span></a></li> -->
+                        <li><a href="Projects.html"><span class="clickable-word">Projects</span></a></li>
+                        <li><a href="Contact.html"><span class="clickable-word">Contact</span></a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i> 
+                    </ul>   
+                    <i class="fas fa-bars" onclick="openmenu()"></i>       
+                 </nav>
+             <div id="header-text">
+               <p>Software Developer</p>
+             <h1>Hi,This is <span>Srishti,</span><br>a passionate computer programmer,<br>a full stack developer from Canada</h1>
+             </div> 
+            </div>
+        </div>
+       
+    </div>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-column-1">
+                
+                <img src="new gif.gif" alt="Animated GIF">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p id="about">I am a dedicated computer programming student with a relentless passion for coding and technology. My journey in the world of programming began with an insatiable curiosity and a desire to create solutions that make a positive impact. With a strong foundation in languages like Python, Java, and C++, I thrive on the challenges that come with developing software and solving complex problems.<br>
+<br>
+                    One of my standout qualities is my proficiency in problem-solving. I have an innate ability to break down intricate issues into manageable components, allowing me to design elegant and efficient solutions. Whether it's debugging a complex algorithm or architecting a new software project, I approach each problem with enthusiasm, attention to detail, and a determination to find the best possible outcome.</p>
+            <br><br><!-- </div>
+            <div id="buttons for index"> -->
+            <a href="https://www.algonquincollege.com/access/?utm_source=LoKnow&utm_medium=Search&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMTXCuYw3emD0DfprD-otJ-r_5MIBSHyM5pqCf0fH-iWTFjv9nMU8MaAg9ZEALw_wcB&gclsrc=aw.ds" class="college-button">Visit My College</a>
+            <a href="https://github.com/SRISHTI-052/HelloWorld.git" class="college-button">Visit My Github</a>
+        </div>
+        
+    </div> </div>
+    <footer>
+        <div class="footer">
+            <!-- <div class="row">
+                <a href="https://github.com/SRISHTI-052/HelloWorld.git" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/srishti-arora-2535ab261/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="mailto:srishti.arora052@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="Contact.html"><i class="fa fa-phone"></i></a>
+            </div> -->
+    
+            <div class="row">
+                <ul>
+                    <li><a href="Srishti-Resume.pdf" target="_blank">Download Resume</a></li>
+                    <li><a href="Index.html">About Me</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+    
+            <div class="row"></div>
+                Srishti Arora Copyright © 2023 - All rights reserved ||
+            
+        </div>
+    </footer>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+sidemenu.style.right="-200";
+        }
+    </script>
+</body>
+</html>

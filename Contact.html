@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class="Contact" style="background-color: black; color: azure;">
+    <nav>
+     
+        <ul>
+            <li><a href="index.html"> <span class="clickable-word">Home</span></a></li>
+            <!-- <li><a href="resume.html"><span class="clickable-word">Resume</span></a></li> -->
+            <li><a href="Projects.html"><span class="clickable-word">Projects</span></a></li>
+            <li><a href="Contact.html"><span class="clickable-word">Contact</span></a></li>
+        </ul>          
+     </nav>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>  
+<p><i class="fa-solid fa-paper-plane"></i>
+    sris0007@algonquinlive.com
+</p>
+<p onclick="displaynum()"><i class="fa-solid fa-phone"></i>438-921-7797</p>
+
+<div class="social-icons">
+    <a href="https://www.facebook.com/profile.php?id=100089868003002" onclick="showAlert('Facebook')">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/srishti-arora-2535ab261/" onclick="showAlert('LinkedIn')">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    
+    <a href="https://github.com/SRISHTI-052/HelloWorld.git" onclick="showAlert('GitHub')">
+        <i class="fa-brands fa-github"></i>
+    </a>
+    
+    <a href="mailto:srishti.arora052@gmail.com" onclick="showAlert('Email')">
+        <i class="fa-solid fa-envelope"></i>
+    </a>
+</div>
+<a href="Srishti-Resume.pdf" download class="btn btn21" style="text-align: center; background-color: #ff004f";> Download CV </a>
+            
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>  
+                    <input type="email" name="E-mail" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required>    </textarea>       
+                    <button type="submit" class="btn btn2" style="text-align: center; background-color: #ff004f;">Submit</button>
+      
+        </form></div>
+        </div>
+    </div></div>
+    
+   </div> 
+   <footer>
+    <div class="footer">
+        <!-- <div class="row">
+            <a href="https://github.com/SRISHTI-052/HelloWorld.git" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/srishti-arora-2535ab261/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:srishti.arora052@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="Contact.html"><i class="fa fa-phone"></i></a>
+        </div> -->
+
+        <div class="row">
+            <ul>
+                <li><a href="Srishti-Resume.pdf" target="_blank">Download Resume</a></li>
+                <li><a href="Index.html">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+
+        <div class="row"></div>
+            Srishti Arora Copyright © 2023 - All rights reserved ||
+        
+    </div>
+</footer>
+<script>
+    function displaynum() {
+        var phonenum = "438-779-2553";
+        alert("Contact Number: " + phonenum);
+    }
+    function showAlert(platform) {
+        alert('You clicked on ' + platform);
+    }
+</script>
+</body>
+</html>
